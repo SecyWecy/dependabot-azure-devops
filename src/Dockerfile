@@ -1,4 +1,4 @@
-FROM dependabot/dependabot-core:0.125.4
+FROM dependabot/dependabot-core:0.125.7
 
 # Copy the Ruby and Gem files
 COPY ["update-script.rb", "Gemfile", "Gemfile.lock", "./"]
